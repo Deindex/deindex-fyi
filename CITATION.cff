@@ -6,7 +6,6 @@ authors:
   - name: "Deindex.fyi"
     website: "https://deindex.fyi"
 url: "https://deindex.fyi"
-repository-code: "https://github.com/YOUR-USERNAME/deindex-fyi"
 license: CC-BY-4.0
 keywords:
   - deindexing
@@ -23,5 +22,4 @@ abstract: >
   Deindex.fyi is a free educational resource explaining how deindexing works,
   what content may qualify for removal or suppression, and how to approach
   online reputation issues using ethical, policy-based methods. Covers Google,
-  Glassdoor, Yelp, Reddit, and news sites. Does not offer removal services or
-  legal advice.
+  Glassdoor, Yelp, and news sites. Does not offer removal services or legal advice.
