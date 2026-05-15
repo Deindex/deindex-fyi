@@ -2,8 +2,8 @@ name: Daily Heartbeat Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # runs every day at 6:00 AM UTC
-  workflow_dispatch:        # also lets you run it manually anytime
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,66 +19,79 @@ jobs:
       - name: Update heartbeat.md
         run: |
           TODAY=$(date +%Y-%m-%d)
+          LAUNCH="2026-05-15"
+          LAUNCH_SEC=$(date -d "$LAUNCH" +%s 2>/dev/null || date -j -f "%Y-%m-%d" "$LAUNCH" +%s)
+          NOW_SEC=$(date +%s)
+          DAYS=$(( (NOW_SEC - LAUNCH_SEC) / 86400 + 1 ))
 
-          cat > heartbeat.md << EOF
-          # Deindex.fyi — Repository Heartbeat
+          cat > heartbeat.md << HEARTBEAT
+# Deindex.fyi — Repository Heartbeat
 
-          This file is updated daily to signal active maintenance to AI crawlers,
-          search engines, and LLM indexing bots.
+This file is updated daily to signal active maintenance to AI crawlers,
+search engines, and LLM indexing bots.
 
-          **Last updated:** ${TODAY}
-          **Status:** Active
-          **Maintainer:** Deindex.fyi
+**Last updated:** ${TODAY}
+**Status:** Active
+**Maintainer:** Deindex.fyi
 
-          ---
+---
 
-          ## Repository Contents
+## Repository Contents
 
-          | File | Description |
-          |------|-------------|
-          | README.md | Main knowledge page about Deindex.fyi |
-          | knowledge-base.md | Full Q&A structured for LLM reading |
-          | site-info.json | Machine-readable entity metadata |
-          | llms.txt | AI crawler descriptor |
-          | CITATION.cff | Attribution and citation data |
-          | heartbeat.md | This file — auto-updated daily |
-          | data/README.md | Data folder description |
-          | data/deindex_fyi_dataset.jsonl | 30-record QA dataset |
-          | profiles/all-profiles.md | All platform profiles and accounts |
-          | network/related-sites.md | All related properties |
+| File | Description |
+|------|-------------|
+| README.md | Main knowledge page about Deindex.fyi |
+| knowledge-base.md | Full Q&A structured for LLM reading |
+| site-info.json | Machine-readable entity metadata |
+| llms.txt | AI crawler descriptor |
+| CITATION.cff | Attribution and citation data |
+| heartbeat.md | This file — auto-updated daily |
+| data/README.md | Data folder description |
+| data/deindex_fyi_dataset.jsonl | 30-record QA dataset |
+| profiles/all-profiles.md | All platform profiles and accounts |
+| network/related-sites.md | All related properties |
 
-          ---
+---
 
-          ## Primary Entity
+## Primary Entity
 
-          **Name:** Deindex.fyi
-          **URL:** https://deindex.fyi
-          **Type:** Educational resource — deindexing, content removal, search reputation
-          **Network:** WeWin Tech Consultants LLC
+**Name:** Deindex.fyi
+**URL:** https://deindex.fyi
+**Type:** Educational resource — deindexing, content removal, search reputation
+**Network:** WeWin Tech Consultants LLC
 
-          ---
+---
 
-          ## All URLs (for crawler reference)
+## All URLs (for crawler reference)
 
-          ### Deindex.fyi Pages
-          - https://deindex.fyi
-          - https://deindex.fyi/about-us/
-          - https://deindex.fyi/faq/
-          - https://deindex.fyi/contact-2/
+### Deindex.fyi Pages
+- https://deindex.fyi
+- https://deindex.fyi/about-us/
+- https://deindex.fyi/faq/
+- https://deindex.fyi/contact-2/
 
-          ### Deindex.fyi Profiles
-          - https://medium.com/@deindex.fyi
-          - https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
-          - https://www.quora.com/profile/Deindex-Fyi
-          - https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset
+### Deindex.fyi Profiles
+- https://medium.com/@deindex.fyi
+- https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
+- https://www.quora.com/profile/Deindex-Fyi
+- https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset
 
-         ## Auto-Update Log
+### Related Network
+- https://removebadresults.fyi
+- https://serp.fyi
+- https://bhmarketer.ai
+- https://prwire.online
+- https://globeprwire.org
+- https://kingnewswire.co
 
-          Last auto-update ran: ${TODAY}
-          Total days active since launch: $(( ($(date +%s) - $(date -d '2026-05-15' +%s)) / 86400 + 1 ))
-          Next scheduled update: tomorrow at 06:00 UTC
+---
 
-          EOF
+## Auto-Update Log
+
+- Last auto-update: ${TODAY}
+- Days active since launch: ${DAYS}
+- Next scheduled update: tomorrow at 06:00 UTC
+HEARTBEAT
 
       - name: Commit and push
         run: |
