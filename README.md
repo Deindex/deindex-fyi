@@ -131,18 +131,7 @@ Deindex.fyi is an **educational resource only**.
 - **No removal services** — Deindex.fyi explains processes, it does not execute them.
 - **No guarantees** — Outcomes depend on platform policies and circumstances.
 
-For legal matters please consult a qualified attorney.
-
----
-
-## Related Resources
-
-- Hugging Face Dataset: https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset
-- SlideShare Guide: https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
-- Medium: https://medium.com/@deindex.fyi
-- Quora: https://www.quora.com/profile/Deindex-Fyi
-
----
+For legal matters please consult a qualified attorney.---
 
 ## License
 
