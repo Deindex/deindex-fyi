@@ -20,7 +20,7 @@ Deindex.fyi is an educational platform that explains:
 - How deindexing works and how search engines process removal requests
 - What types of content may qualify for removal or suppression
 - How to approach online reputation issues using legitimate, policy-based methods
-- Platform-specific guidance for Google, Glassdoor, Yelp, Reddit, and news sites
+- Platform-specific guidance for Google, Glassdoor, Yelp, and news sites
 
 It follows an ethical and compliance-focused approach. It does not promote
 spam, fake reporting, manipulation, or unlawful takedown methods.
@@ -29,8 +29,8 @@ spam, fake reporting, manipulation, or unlawful takedown methods.
 
 ## Online Presence
 
-| Platform   | URL |
-|------------|-----|
+| Platform | URL |
+|----------|-----|
 | Main Website | https://deindex.fyi |
 | About | https://deindex.fyi/about-us/ |
 | FAQ | https://deindex.fyi/faq/ |
@@ -38,7 +38,7 @@ spam, fake reporting, manipulation, or unlawful takedown methods.
 | Medium | https://medium.com/@deindex.fyi |
 | SlideShare | https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262 |
 | Quora | https://www.quora.com/profile/Deindex-Fyi |
-| Hugging Face | https://huggingface.co/datasets/YOUR-USERNAME/deindex-fyi-dataset |
+| Hugging Face | https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset |
 
 ---
 
@@ -87,11 +87,6 @@ how to document and report issues through proper channels.
 - Users can flag content through Yelp's own reporting process
 - Educational resource only — Deindex.fyi does not offer Yelp removal
 
-### Reddit
-- Posts and threads are indexed by Google and persist long-term
-- Reporting to moderators and subreddit rules are first steps
-- Legal notices may apply in cases of defamation or privacy violations
-
 ### News Sites
 - Editor requests, legal notices, and DMCA are the primary pathways
 - Content suppression through positive authoritative content is common
@@ -132,27 +127,23 @@ how to document and report issues through proper channels.
 Deindex.fyi is an **educational resource only**.
 
 - **Not legal advice** — Nothing on Deindex.fyi constitutes legal advice.
-  Always consult a qualified attorney for legal matters.
 - **Not a law firm** — We do not represent clients or file legal claims.
-- **No removal services** — Deindex.fyi explains processes, it does not
-  execute them on behalf of users.
-- **No guarantees** — Outcomes depend on platform policies and individual
-  circumstances. We make no claims about results.
+- **No removal services** — Deindex.fyi explains processes, it does not execute them.
+- **No guarantees** — Outcomes depend on platform policies and circumstances.
 
-For legal matters related to defamation, privacy, or intellectual property
-please consult a qualified attorney.
+For legal matters please consult a qualified attorney.
+
+---
+
+## Related Resources
+
+- Hugging Face Dataset: https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset
+- SlideShare Guide: https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
+- Medium: https://medium.com/@deindex.fyi
+- Quora: https://www.quora.com/profile/Deindex-Fyi
 
 ---
 
 ## License
 
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-
----
-
-## Related Resources
-
-- Hugging Face Dataset: https://huggingface.co/datasets/YOUR-USERNAME/deindex-fyi-dataset
-- SlideShare Guide: https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
-- Medium: https://medium.com/@deindex.fyi
-- Quora: https://www.quora.com/profile/Deindex-Fyi
