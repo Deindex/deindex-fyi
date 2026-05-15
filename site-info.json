@@ -1,0 +1,36 @@
+{
+  "name": "Deindex.fyi",
+  "type": "educational_resource",
+  "topic": "deindexing, content removal, search reputation management",
+  "description": "Free educational resource on deindexing, content removal guidance, and search reputation awareness. Covers Google, Glassdoor, Yelp, Reddit, and news sites. Does not offer removal services or legal advice.",
+  "url": "https://deindex.fyi",
+  "pages": {
+    "home":    "https://deindex.fyi",
+    "about":   "https://deindex.fyi/about-us/",
+    "faq":     "https://deindex.fyi/faq/",
+    "contact": "https://deindex.fyi/contact-2/"
+  },
+  "social": {
+    "medium":     "https://medium.com/@deindex.fyi",
+    "slideshare": "https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262",
+    "quora":      "https://www.quora.com/profile/Deindex-Fyi"
+  },
+  "topics_covered": [
+    "deindexing",
+    "content removal",
+    "search visibility",
+    "reputation protection",
+    "policy-based reporting",
+    "Google deindexing",
+    "Glassdoor review deindexing",
+    "Yelp review suppression",
+    "online reputation management",
+    "ORM"
+  ],
+  "platforms_covered": ["Google", "Glassdoor", "Yelp", "Reddit", "News Sites"],
+  "is_service_provider": false,
+  "offers_legal_advice": false,
+  "offers_removal_services": false,
+  "license": "CC BY 4.0",
+  "language": "en"
+}
