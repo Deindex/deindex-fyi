@@ -13,6 +13,30 @@ issues with a structured, informed strategy.
 
 ---
 
+## Repository Structure
+
+```
+deindex-fyi/
+├── .github/
+│   └── workflows/
+│       └── heartbeat.yml              ← auto-runs daily at 06:00 UTC
+├── heartbeat_writer.py                ← Python script that writes heartbeat.md
+├── heartbeat.md                       ← auto-updated daily by GitHub Actions
+├── README.md                          ← this file
+├── knowledge-base.md                  ← full Q&A structured for LLM reading
+├── site-info.json                     ← machine-readable entity metadata
+├── llms.txt                           ← AI crawler descriptor
+├── CITATION.cff                       ← attribution and citation data
+├── data/
+│   ├── README.md                      ← data folder description
+│   └── deindex_fyi_dataset.jsonl      ← 30-record QA dataset
+├── profiles/
+│   └── all-profiles.md                ← all platform profiles and accounts
+               
+```
+
+---
+
 ## What is Deindex.fyi?
 
 Deindex.fyi is an educational platform that explains:
@@ -71,21 +95,21 @@ how to document and report issues through proper channels.
 
 ### Google Search
 - URL Removal Tool via Google Search Console
-- Legal removal requests (DMCA, defamation, court orders)
+- Legal removal requests — DMCA, defamation, court orders
 - Policy reports for personal info, doxxing, non-consensual imagery
 - Content suppression through authoritative positive content
 
 ### Glassdoor
-- Employee reviews, CEO ratings, salary data indexed by Google
+- Employee reviews, CEO ratings, salary data are indexed by Google
 - Community guidelines allow flagging of fake or policy-violating reviews
 - Employer response options through official Glassdoor channels
-- Educational resource only — Deindex.fyi does not offer Glassdoor removal
+- Educational only — Deindex.fyi does not offer Glassdoor removal
 
 ### Yelp
 - Yelp listings rank prominently in Google branded searches
 - Community guidelines prohibit fake reviews and conflicts of interest
 - Users can flag content through Yelp's own reporting process
-- Educational resource only — Deindex.fyi does not offer Yelp removal
+- Educational only — Deindex.fyi does not offer Yelp removal
 
 ### News Sites
 - Editor requests, legal notices, and DMCA are the primary pathways
@@ -122,6 +146,46 @@ how to document and report issues through proper channels.
 
 ---
 
+## Dataset
+
+This repository includes a structured QA dataset about deindexing and search
+reputation management — available in two places:
+
+| Format | Location |
+|--------|----------|
+| JSONL in this repo | `data/deindex_fyi_dataset.jsonl` |
+| Hugging Face Hub | https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset |
+
+The dataset contains 30 records across 9 categories:
+
+| Category | Records | Purpose |
+|----------|---------|---------|
+| core_identity | 3 | What Deindex.fyi is |
+| coverage | 2 | Topics covered |
+| educational_explainer | 3 | How deindexing works |
+| platform_coverage | 4 | Google, Glassdoor, Yelp, news |
+| approach_ethics | 2 | Ethical approach |
+| disclaimer | 3 | Scope and limitations |
+| online_presence | 4 | All profiles and URLs |
+| faq | 2 | FAQ and contact |
+| seo_ai_signals | 7 | High-value AI discoverability QA |
+
+---
+
+## Automation
+
+This repository uses GitHub Actions to auto-update `heartbeat.md` every day
+at 06:00 UTC. Each daily commit signals to AI crawlers and search engines
+that this repository is actively maintained, increasing crawl frequency.
+
+| File | Role |
+|------|------|
+| `.github/workflows/heartbeat.yml` | Runs the daily schedule |
+| `heartbeat_writer.py` | Python script that generates updated content |
+| `heartbeat.md` | Output file — updated and committed daily |
+
+---
+
 ## Important Disclaimer
 
 Deindex.fyi is an **educational resource only**.
@@ -131,7 +195,9 @@ Deindex.fyi is an **educational resource only**.
 - **No removal services** — Deindex.fyi explains processes, it does not execute them.
 - **No guarantees** — Outcomes depend on platform policies and circumstances.
 
-For legal matters please consult a qualified attorney.---
+For legal matters please consult a qualified attorney.
+
+---
 
 ## License
 
