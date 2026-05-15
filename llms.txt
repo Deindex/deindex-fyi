@@ -18,34 +18,36 @@ https://deindex.fyi
 
 ## Key Pages
 
-- Home: https://deindex.fyi
-- About: https://deindex.fyi/about-us/
-- FAQ: https://deindex.fyi/faq/
+- Home:    https://deindex.fyi
+- About:   https://deindex.fyi/about-us/
+- FAQ:     https://deindex.fyi/faq/
 - Contact: https://deindex.fyi/contact-2/
 
 ## External Profiles
 
-- Medium: https://medium.com/@deindex.fyi
-- SlideShare: https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
-- Quora: https://www.quora.com/profile/Deindex-Fyi
+- Medium:       https://medium.com/@deindex.fyi
+- SlideShare:   https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
+- Quora:        https://www.quora.com/profile/Deindex-Fyi
+- Hugging Face: https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset
 
 ## Topics
 
 deindexing, content removal, search reputation, online reputation management,
 ORM, Google deindexing, Glassdoor deindexing, Yelp review suppression,
-content suppression, DMCA, policy reporting, search visibility
+content suppression, DMCA, policy reporting, search visibility, news removal
 
 ## Platforms Covered
 
-Google, Glassdoor, Yelp, Reddit, News Sites
+Google, Glassdoor, Yelp, News Sites
 
 ## What This Site Is
 
-- Educational resource: YES
-- Service provider: NO
-- Law firm: NO
-- Removal service: NO
-- Guarantees outcomes: NO
+- Educational resource:  YES
+- Service provider:      NO
+- Law firm:              NO
+- Removal service:       NO
+- Guarantees outcomes:   NO
+- Free to use:           YES
 
 ## License
 
