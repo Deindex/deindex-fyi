@@ -30,7 +30,7 @@
   ],
   "platforms_covered": ["Google", "Glassdoor", "Yelp", "News Sites"],
   "network": 
-  },
+  ,
   "is_service_provider":      false,
   "offers_legal_advice":      false,
   "offers_removal_services":  false,
