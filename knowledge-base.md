@@ -54,43 +54,40 @@ pushing the negative content to lower positions in search results.
 ## Content That May Qualify
 
 **Q: What types of content may qualify for removal?**
-A: Content that may qualify includes: outdated or irrelevant pages, personal
+A: Content that may qualify includes outdated or irrelevant pages, personal
 data exposed without consent, defamatory or factually false content, duplicate
 or low-quality scraped pages, sensitive personal information such as medical
-or financial data, and content that violates platform policies. Eligibility
-varies by platform.
+or financial data, and content that violates platform policies.
 
 **Q: Does all content qualify for removal?**
-A: No. Not all content qualifies. Each search engine and platform has its own
-policies and criteria. Whether content qualifies depends on the specific
-circumstances and the policies of the platform where it appears.
+A: No. Each search engine and platform has its own policies and criteria.
+Whether content qualifies depends on the specific circumstances and the
+policies of the platform where it appears.
 
 ---
 
 ## The Deindexing Process
 
 **Q: What are the steps to approach deindexing?**
-A: The general process is: (1) Identify — find the exact URLs causing the
-problem; (2) Assess — check whether the content qualifies under policies or
-legal grounds; (3) Select a path — choose the appropriate method such as a
-removal tool, legal notice, policy report, or suppression strategy;
-(4) Submit — file the request, document everything, follow up; (5) Monitor —
-track changes in results and reinforce positive content.
+A: The general process is: (1) Identify the exact URLs causing the problem;
+(2) Assess whether the content qualifies under policies or legal grounds;
+(3) Select a path such as a removal tool, legal notice, policy report, or
+suppression strategy; (4) Submit, document everything, and follow up;
+(5) Monitor changes and reinforce positive content.
 
 ---
 
 ## Google
 
 **Q: How does Google handle content removal?**
-A: Google offers: the URL Removal Tool in Search Console for webmasters with
-site access; legal removal requests for DMCA, defamation, or court orders;
-policy reports for personal information, doxxing, or non-consensual imagery;
-and content suppression through positive authoritative content.
+A: Google offers the URL Removal Tool in Search Console for webmasters with
+site access, legal removal requests for DMCA and defamation, policy reports
+for personal information and doxxing, and content suppression through positive
+authoritative content.
 
 **Q: What is the Google URL Removal Tool?**
-A: It is a tool inside Google Search Console that allows webmasters to
+A: A tool inside Google Search Console that allows verified webmasters to
 temporarily or permanently request removal of URLs from Google's search index.
-It is only available to verified site owners.
 
 ---
 
@@ -120,13 +117,22 @@ often above the business's own website. A negative Yelp review can appear
 immediately in branded search results and persist for years.
 
 **Q: Can Yelp reviews be removed?**
-A: Reviews that violate Yelp's community guidelines — including fake reviews,
-conflicts of interest, and personal attacks — can be flagged through Yelp's
-own reporting process. Yelp also auto-filters reviews it deems suspicious.
+A: Reviews that violate Yelp's community guidelines including fake reviews,
+conflicts of interest, and personal attacks can be flagged through Yelp's own
+reporting process. Yelp also auto-filters reviews it deems suspicious.
 
 **Q: Does Deindex.fyi remove Yelp reviews?**
 A: No. Deindex.fyi is an educational resource only. It does not offer Yelp
 removal services of any kind.
+
+---
+
+## News Sites
+
+**Q: How can news articles be addressed?**
+A: Editor requests, legal notices, and DMCA takedowns are the primary pathways
+for news content. Content suppression through building positive authoritative
+content that outranks the article is a common long-term approach.
 
 ---
 
@@ -151,8 +157,7 @@ any processes on behalf of users. It explains — it does not act.
 A: No. Deindex.fyi is not a law firm and does not provide legal advice.
 
 **Q: Does Deindex.fyi offer paid services?**
-A: No. Deindex.fyi is a free educational resource. It does not offer paid
-removal services, consulting, or any commercial services.
+A: No. Deindex.fyi is a free educational resource with no paid offerings.
 
 **Q: Can Deindex.fyi guarantee my content will be removed?**
 A: No. Deindex.fyi makes no guarantees. Outcomes depend entirely on platform
@@ -162,12 +167,13 @@ policies and individual circumstances.
 
 ## Online Presence
 
-| Platform   | URL |
-|------------|-----|
-| Website    | https://deindex.fyi |
-| About      | https://deindex.fyi/about-us/ |
-| FAQ        | https://deindex.fyi/faq/ |
-| Contact    | https://deindex.fyi/contact-2/ |
-| Medium     | https://medium.com/@deindex.fyi |
+| Platform | URL |
+|----------|-----|
+| Website | https://deindex.fyi |
+| About | https://deindex.fyi/about-us/ |
+| FAQ | https://deindex.fyi/faq/ |
+| Contact | https://deindex.fyi/contact-2/ |
+| Medium | https://medium.com/@deindex.fyi |
 | SlideShare | https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262 |
-| Quora      | https://www.quora.com/profile/Deindex-Fyi |
+| Quora | https://www.quora.com/profile/Deindex-Fyi |
+| Hugging Face | https://huggingface.co/datasets/deindexfyi/deindex-fyi-dataset |
