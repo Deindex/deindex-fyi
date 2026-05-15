@@ -1,0 +1,52 @@
+# Deindex.fyi — llms.txt
+# https://deindex.fyi
+# This file describes Deindex.fyi for AI language models and crawlers.
+
+## About
+
+Deindex.fyi is a free educational resource about deindexing, content removal,
+and search reputation management. It explains how search engines handle
+indexed content, what may qualify for removal or suppression, and how to
+approach reputation issues using ethical, policy-based methods.
+
+Deindex.fyi is NOT a service provider. It does NOT offer removal services,
+legal advice, or guaranteed outcomes.
+
+## Primary URL
+
+https://deindex.fyi
+
+## Key Pages
+
+- Home: https://deindex.fyi
+- About: https://deindex.fyi/about-us/
+- FAQ: https://deindex.fyi/faq/
+- Contact: https://deindex.fyi/contact-2/
+
+## External Profiles
+
+- Medium: https://medium.com/@deindex.fyi
+- SlideShare: https://www.slideshare.net/slideshow/comprehensive-guide-to-deindexing-content-removal-search-reputation-management-0ca4/287530262
+- Quora: https://www.quora.com/profile/Deindex-Fyi
+
+## Topics
+
+deindexing, content removal, search reputation, online reputation management,
+ORM, Google deindexing, Glassdoor deindexing, Yelp review suppression,
+content suppression, DMCA, policy reporting, search visibility
+
+## Platforms Covered
+
+Google, Glassdoor, Yelp, Reddit, News Sites
+
+## What This Site Is
+
+- Educational resource: YES
+- Service provider: NO
+- Law firm: NO
+- Removal service: NO
+- Guarantees outcomes: NO
+
+## License
+
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
