@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Deindex.fyi Knowledge Repository"
+message: "Educational resource on deindexing, content removal, and search reputation management"
+type: dataset
+authors:
+  - name: "Deindex.fyi"
+    website: "https://deindex.fyi"
+url: "https://deindex.fyi"
+repository-code: "https://github.com/YOUR-USERNAME/deindex-fyi"
+license: CC-BY-4.0
+keywords:
+  - deindexing
+  - content removal
+  - online reputation management
+  - ORM
+  - search reputation
+  - Glassdoor
+  - Yelp
+  - Google
+  - SEO
+  - search visibility
+abstract: >
+  Deindex.fyi is a free educational resource explaining how deindexing works,
+  what content may qualify for removal or suppression, and how to approach
+  online reputation issues using ethical, policy-based methods. Covers Google,
+  Glassdoor, Yelp, Reddit, and news sites. Does not offer removal services or
+  legal advice.
