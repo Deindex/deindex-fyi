@@ -1,0 +1,28 @@
+name: Daily Heartbeat Update
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Write heartbeat file
+        run: python3 heartbeat_writer.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add heartbeat.md
+          git diff --staged --quiet || git commit -m "chore: daily heartbeat $(date +%Y-%m-%d)"
+          git push
